@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
+// layout.tsx allows content to be spread across all pages
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
