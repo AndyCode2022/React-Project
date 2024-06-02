@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 
 // layout.tsx allows content to be spread across all pages
 
@@ -17,8 +19,17 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <>
+      <html lang="en">
+        <body>
+          <Navbar />
+          <div>
+            className={inter.className}
+            {children}
+          </div>
+          <Footer />
+        </body>
+      </html>
+    </>
   );
 }

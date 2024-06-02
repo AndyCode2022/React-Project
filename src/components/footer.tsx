@@ -6,35 +6,37 @@ class Footer extends Component {
   render() {
     const current_year = new Date().getFullYear();
     return (
+      <>
       <div id="section_footer">
         <div className="text-center py-4">
           <Link
-            href="https://1manstartup.com/privacy-policy"
+            href="/"
             target="_blank"
             className="btn btn-link"
           >
-            Privacy
+            Home
           </Link>
           <span>|</span>
           <Link
-            href="https://1manstartup.com/terms-and-conditions"
+            href="/about"
             target="_blank"
             className="btn btn-link"
           >
-            Terms
+            About
           </Link>
           <span>|</span>
           <Link
-            href="mailto:Roads<dave@1manstartup.com>"
+            href="mailto:andrew.webster403@hotmail.co.uk"
             className="btn btn-link"
           >
             Contact
           </Link>
           <p>
-            Copyright © {current_year}, 1ManStartup LLC. All Rights Reserved.
+            Copyright © {current_year}, Andrew Webster. All Rights Reserved.
           </p>
         </div>
       </div>
+      </>
     );
   }
 }

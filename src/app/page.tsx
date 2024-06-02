@@ -1,12 +1,9 @@
 import Head from "next/head";
-import Cuboid from "../components/Cuboid"
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer";
+import Cuboid from "../components/cuboid"
 
-export default function Home() {
+export default function App() {
   return (
     <>
-    <Navbar />
       <Head>
         <title>Cuboid</title>
         <meta
@@ -22,7 +19,6 @@ export default function Home() {
           <Cuboid />
         </div>
       </main>
-      <Footer />
     </>
   );
 }
