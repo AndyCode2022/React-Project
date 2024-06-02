@@ -6,17 +6,17 @@ const Navbar = () => {
     <nav>
       <ul>
         <li>
-          <Link id="link">
+          <Link href="/">
             <a>Home</a>
           </Link>
         </li>
         <li>
-          <Link id="link">
+          <Link href="/about">
             <a>About</a>
           </Link>
         </li>
         <li>
-          <Link id="link">
+          <Link href="/contact">
             <a>Contact</a>
           </Link>
         </li>
