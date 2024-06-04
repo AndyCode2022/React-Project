@@ -11,9 +11,7 @@ const Navbar = () => {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link
-            className={`link ${pathname === "/about" ? "active" : ""}`}
-            href="/about"></Link>
+            <Link href="/about"></Link>
           </li>
           <li>
             <Link href="mailto:andrew.webster403@hotmail.co.uk">Contact</Link>
