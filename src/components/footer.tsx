@@ -11,7 +11,6 @@ class Footer extends Component {
         <div className="text-center py-4">
           <Link
             href="/"
-            target="_blank"
             className="btn btn-link"
           >
             Home
@@ -19,7 +18,6 @@ class Footer extends Component {
           <span>|</span>
           <Link
             href="/about"
-            target="_blank"
             className="btn btn-link"
           >
             About

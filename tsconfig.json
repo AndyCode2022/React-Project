@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Cuboid.js", "src/app/pages/about.js", "src/app/pages/about.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Cuboid.js", "src/app/about/about.js", "src/app/about/about.jsx", "src/app/not-found.js"],
   "exclude": ["node_modules"]
 }

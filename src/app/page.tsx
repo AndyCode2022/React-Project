@@ -1,17 +1,14 @@
 import Head from "next/head";
 import Cuboid from "../components/cuboid"
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
 
 export default function App() {
   return (
     <>
-    <Navbar />
       <Head>
         <title>Cuboid</title>
         <meta
           name="description"
-          content="A 3D cube rendered with Three.js in Next.js"
+          content="A 3D cuboid rendered with Three.js in Next.js"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -22,7 +19,6 @@ export default function App() {
           <Cuboid />
         </div>
       </main>
-      <Footer />
     </>
   );
 }
